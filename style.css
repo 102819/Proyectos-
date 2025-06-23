@@ -1,0 +1,51 @@
+.Bienvenida { font-family: "Libre Baskerville" serif; 
+ font-weight: 700; 
+ text-align: center;
+ background-color:  rgb(203, 151, 170); 
+  color: #a10d48;
+  margin-top: 0px;
+}
+h3 { font-family: "Libre Baskerville" serif; 
+ font-weight: 400; 
+ text-align: center
+}
+li a {text-align: center;
+ color: #183c0a; 
+ text-decoration: none;
+ line-height: 2;
+}
+body { background-color: rgb(186, 136, 166);
+ margin: 0; 
+ padding: 0
+}
+.menu li { display:inline-block; text-decoration: none; 
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+nav ul { height: 50px; 
+ text-align: center;
+ display: inline;
+}
+nav {text-align: center;}
+.conoceme {text-decoration: none; 
+ padding: 2px;
+}
+table, tr, td { border: 1px solid black; 
+ border-collapse:collapse;
+}
+.nombre {padding: 2px;
+ text-align: center;
+ font-family: DM Serif Display;
+ font-weight: 400; font-style: normal
+}
+p {padding: 2px;
+ text-align: center
+} 
+td {padding: 2px; text-align: center;
+ width:100;
+ height: 50;
+}
+.img1 {margin-right: 50;}
+.interés {text-decoration: none;}
+li { display:inline-block; }
