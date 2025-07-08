@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Process</title>
+  <link rel="stylesheet" href="style2.css"/>
+</head>
+<body id="todo">
+  <header class="navbar">
+    <div class="logo">
+      <img src="imagenes2/emoji.png" alt="gatito"> 
+    </div>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html#portfolio">Inicio</a></li>
+        <li><a href="portfolio.html#sobre-mi">Sobre Mi</a></li>
+        <li><a href="portfolio.html#proyectos">Proyectos</a></li>
+        <li><a href="portfolio.html#contacto">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="tarjeta-interes">
+    <section class="intro">
+      <h1>BANDEJA DE SONIDOS</h1>
+      <p>
+        Como en una guitarra, cada sonido tiene su tono y su intención. Explorá estos audios y descubrí cómo diferentes matices pueden transmitir sensaciones únicas.
+      </p>
+    </section>
+  <section class="sonidos-section">
+      <div class="sonido-card" onclick="playSound('guitarra1')">
+        <img src="imagenes2/bachata.png" alt="guitarra">
+        <p>Sonido 1</p>
+      </div>
+      <div class="sonido-card" onclick="playSound('guitarra2')">
+        <img src="imagenes2/rock.png" alt="stickers de rock">
+        <p>Sonido 2</p>
+      </div>
+      <div class="sonido-card" onclick="playSound('guitarra3')">
+        <img src="imagenes2/suave.png" alt="guitarra">
+        <p>Sonido 3</p>
+      </div>
+      <div class="sonido-card" onclick="playSound('guitarra2')">
+        <img src="imagenes2/loop.png" alt="guitarra">
+        <p>Sonido 4</p>
+      </div>
+      
+    
+   <audio id="guitarra1" src="sonidos/guitar-bachata.mp3"></audio>
+   <audio id="guitarra4" src="sonidos/guitar-loops.mp3"></audio>
+   <audio id="guitarra3" src="sonidos/relaxing-guitar.mp3"></audio>
+   <audio id="guitarra2" src="sonidos/rock-ident.mp3"></audio>
+   <script>
+    function playSound(id) {
+      const sound = document.getElementById(id);
+      sound.currentTime = 0;
+      sound.play();
+    }
+  </script>
+  </section>
+    <div class="boton-seguir">
+      <a href="portfolio.html#proyectos">
+        <button>Volver</button>
+      </a>
+    </div>    
+  </main>
+  <footer class="mi-footer">
+    <p>© 2025 SONIDOS | Diseño Propio</p>
+  </footer>
+</body>
+</html>

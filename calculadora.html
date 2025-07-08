@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Process</title>
+  <link rel="stylesheet" href="style2.css"/>
+</head>
+<body id="todo">
+  <header class="navbar">
+    <div class="logo">
+      <img src="imagenes2/emoji.png" alt="gatito">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="portfolio.html#portfolio">Inicio</a></li>
+        <li><a href="portfolio.html#sobre-mi">Sobre Mi</a></li>
+        <li><a href="portfolio.html#Lo que me representa">Proyectos</a></li>
+        <li><a href="portfolio.html#contacto">Contactos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="tarjeta-interes">
+    <section class="intro">
+      <h1>CALCULADORA</h1>
+    </section>
+    <section class="container">
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="appendValue('7')">7</button>
+        <button onclick="appendValue('8')">8</button>
+        <button onclick="appendValue('9')">9</button>
+        <button onclick="appendValue('/')">÷</button>
+        
+        <button onclick="appendValue('4')">4</button>
+        <button onclick="appendValue('5')">5</button>
+        <button onclick="appendValue('6')">6</button>
+        <button onclick="appendValue('*')">×</button>
+        
+        <button onclick="appendValue('1')">1</button>
+        <button onclick="appendValue('2')">2</button>
+        <button onclick="appendValue('3')">3</button>
+        <button onclick="appendValue('-')">-</button>
+        
+        <button onclick="appendValue('0')">0</button>
+        <button onclick="appendValue('.')">.</button>
+        <button onclick="appendValue('+')">+</button>
+        <button onclick="appendValue('=')">=</button>
+      
+        <button class="igual" onclick="calculate()">=</button>
+      </div>
+     </section>
+     <div class="boton-seguir">
+      <a href="portfolio.html#proyectos">
+        <button>Volver</button>
+      </a>
+    </div>    
+    </main>
+    <script src="script.js"></script>
+<footer class="mi-footer">
+  <p>© 2025 CALCULADORA| Diseño Propio</p>
+</footer>
+</body>
+</html>
